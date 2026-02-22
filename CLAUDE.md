@@ -11,16 +11,19 @@ A personal English vocabulary learning project built around the animated series 
 ```
 arcane/
 ├── 01.srt              # Episode 1 subtitle file
-└── vocab/
-    └── ep01.md          # Episode 1 vocabulary notes
+├── vocab/
+│   └── ep01.md          # Episode 1 vocabulary notes
+└── expressions/
+    └── ep01.md          # Episode 1 colloquial expressions & sentence patterns
 ```
 
 - **SRT files** — Full subtitles for each episode (named `NN.srt`)
-- **vocab/** — Vocabulary notes per episode (named `epNN.md`)
+- **vocab/** — New words and their definitions per episode (named `epNN.md`)
+- **expressions/** — Useful colloquial expressions, idioms, and sentence patterns per episode (named `epNN.md`)
 
-## Vocabulary Entry Format
+## Entry Format
 
-Each entry in `vocab/epNN.md` follows this structure:
+Each entry in `vocab/epNN.md` and `expressions/epNN.md` follows this structure:
 
 ```markdown
 ## word or phrase
